@@ -1,3 +1,104 @@
-h1 {
+body {
+    background-image: url("Images/BG.jpg");    
+    background-size: 1370px 660px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.logo {
+    border-radius: 80px;
+    float: left;
+    height: 50px;
+    width: 70px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 0px 20px 0px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    color: rgba(0, 128, 64, 0.692);
+    transition: 0.5s;
+}
+.navbar a:hover {
+    font-size: larger;
+}
+.navbar input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 300px;
+}
+.navbar button{
+    background-color: azure;
+    color: red;
+    height: 30px;
+    width: 70px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* nabvar ends */
+.div1 {
+    margin-left: 50px;
+}
+.landscape {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 70px;
+    border-radius: 5px;
+    height:400px; width:1000px;
+    box-shadow: 5px 10px 40px 5px #888888;
+}
+.heading {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    font-size: xx-large;
     color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.description {
+    position: absolute;
+    top: 240px;
+    left: 300px;
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0.89);
+    background-color: rgba(128, 128, 128, 0.582);
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.9s;
+}
+.description:hover,.heading:hover{
+    font-family: cursive;
+}
+/* description ends */
+.products {
+    height: 550px;
+    width: 400px;
+    margin: 50px 7px 0px 30px;
+    float: left;
+    transition: 0.5s;
+}
+.products:hover{
+    transform: scale(1.1);
+}
+.product-img {
+    border-radius: 10px;
+}
+/* ends */
+.all-products {
+    border: 1px solid red;
+    height: 350px;
+    width: 400px;
+    float: left;
+    margin: 10px 10px 0px 30px;
+}
+.product2 {
+    height: 350px;
+    width: 400px;
 }
